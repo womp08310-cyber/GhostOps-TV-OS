@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="225dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="16dp"
+    android:focusable="true"
+    android:clickable="true"
+    android:clipToPadding="false"
+    android:clipChildren="false">
+
+    <!-- Card Background & Border -->
+    <RelativeLayout
+        android:id="@+id/cardContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_card"
+        android:padding="2dp">
+
+        <!-- Poster Image -->
+        <ImageView
+            android:id="@+id/imgPoster"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:background="#111827" />
+
+        <!-- Top-Left Rating / 4K Badge -->
+        <TextView
+            android:id="@+id/txtBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_tag_badge"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:text="4K HDR"
+            android:textColor="#38bdf8"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <!-- Dark Gradient at bottom for text readability -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:background="#b0000000" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="8dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="Movie Title"
+            android:textColor="@color/ghostops_text_primary"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</FrameLayout>

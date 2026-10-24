@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GhostOps TV</string>
+    <string name="ghostops_slogan">Cinematic Vault</string>
+    <string name="btn_watch_now">Watch Now</string>
+    <string name="btn_inputs">Inputs</string>
+    <string name="btn_wifi">Wi-Fi</string>
+    <string name="btn_settings">Settings</string>
+    <string name="section_trending">Trending Now</string>
+    <string name="section_masterpieces">Critically Acclaimed Masterpieces</string>
+    <string name="section_anime">Anime Universe</string>
+    <string name="section_apps">Installed TV Apps</string>
+    <string name="section_vault">GhostOps Vault</string>
+    <string name="badge_4k">4K HDR</string>
+    <string name="badge_hd">1080p</string>
+    <string name="server_sirius">Server: Sirius (Fastest)</string>
+    <string name="server_darkmatter">Server: DarkMatter (Ultra 4K)</string>
+    <string name="server_quasar">Server: Quasar</string>
+    <string name="player_loading">Fetching 4K Stream from GhostOps...</string>
+    <string name="player_error">Stream unavailable on this server. Switching...</string>
+</resources>
